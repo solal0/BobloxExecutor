@@ -1,5 +1,19 @@
 {
-  [1] = { "Test 1", "Description, Description, Description, Description and Description 1", "print('Hello World, this is a test 1')", },
-  [2] = { "Test 2", "Description, Description, Description, Description and Description 2", "print('Hello World, this is a test 2')", },
-  [3] = { "Test 3", "Description, Description, Description, Description and Description 3", "print('Hello World, this is a test 3')", },
+  "scripts": [
+    {
+      "name": "Test 1",
+      "description": "Description, Description, Description, Description and Description 1",
+      "script": "print('Hello World, this is a test 1')"
+    },
+    {
+      "name": "Test 2",
+      "description": "Description, Description, Description, Description and Description 2",
+      "script": "print('Hello World, this is a test 2')"
+    },
+    {
+      "name": "Test 3",
+      "description": "Description, Description, Description, Description and Description 3",
+      "script": "print('Hello World, this is a test 3')"
+    }
+  ]
 }
