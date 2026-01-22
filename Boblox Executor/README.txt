@@ -15,7 +15,7 @@ Instructions:
 
 
 Links:
-WeAreDevs - https://wearedevs.net/discord | https://discord.com/invite/SRardZmDEV
+WeAreDevs - https://wearedevs.net/discord | https://discord.gg/wearedevs
 WeAreDevs API - https://wearedevs.net/d/Exploit%20API
 Discord - https://cw-shs.netlify.app/pages/redirect.html?discord
 Skira (github) - https://cw-shs.netlify.app/pages/redirect.html?github
