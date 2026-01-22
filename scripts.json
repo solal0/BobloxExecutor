@@ -3,7 +3,7 @@
     {
       "name": "Dex Explorer v5",
       "description": "Roblox Studio explorer but locally in game.",
-      "script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/zzerexx/Dex/refs/heads/master/main.lua'))()"
+      "script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/zzerexx/Dex/refs/heads/master/main.lua'))();local m=game.Players.LocalPlayer:GetMouse();local ma=game.CoreGui:WaitForChild('MainMenu').OpenButton.MainFrame.AppsFrame.Container;for _,g in pairs(ma:GetChildren())do if g.Name=='App'and g.Main.Icon.ImageRectOffset==Vector2.new(96,0)then g:Destroy()end end local c=game.CoreGui.MainMenu.OpenButton.MainFrame.AppsFrame.Container local n=c.App:Clone()n.Parent=c local e=false n.Main.AppName.Text='Part Lookup'n.Main.Icon.ImageRectOffset=Vector2.new(96,0)n.Main.Icon.ImageRectSize=Vector2.new(32,32)local function s()n.Main.BackgroundColor3=e and Color3.fromRGB(60,60,60)or Color3.fromRGB(45,45,45)n.Main.Highlight.Visible=e end s()n.Main.MouseEnter:Connect(function()n.Main.BackgroundColor3=Color3.fromRGB(65,65,65)end)n.Main.MouseLeave:Connect(s)n.Main.MouseButton1Click:Connect(function()e=not e s()end)game:GetService('UserInputService').InputBegan:Connect(function(i,p)if not p and e and i.UserInputType==Enum.UserInputType.MouseButton1 then print(m.Target:GetFullName())end end)"
     },
     {
       "name": "Initnite Yield",
