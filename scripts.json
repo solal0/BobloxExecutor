@@ -16,32 +16,32 @@
       "script": "print('Hello World, this is a test 3')"
     },
     {
-      "name": "Test 1",
+      "name": "Test 4",
       "description": "Description, Description, Description, Description and Description 1",
       "script": "print('Hello World, this is a test 1')"
     },
     {
-      "name": "Test 2",
+      "name": "Test 5",
       "description": "Description, Description, Description, Description and Description 2",
       "script": "print('Hello World, this is a test 2')"
     },
     {
-      "name": "Test 3",
+      "name": "Test 6",
       "description": "Description, Description, Description, Description and Description 3",
       "script": "print('Hello World, this is a test 3')"
     },
     {
-      "name": "Test 1",
+      "name": "Test 7",
       "description": "Description, Description, Description, Description and Description 1",
       "script": "print('Hello World, this is a test 1')"
     },
     {
-      "name": "Test 2",
+      "name": "Test 8",
       "description": "Description, Description, Description, Description and Description 2",
       "script": "print('Hello World, this is a test 2')"
     },
     {
-      "name": "Test 3",
+      "name": "Test 9",
       "description": "Description, Description, Description, Description and Description 3",
       "script": "print('Hello World, this is a test 3')"
     }
