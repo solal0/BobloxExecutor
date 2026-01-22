@@ -44,6 +44,11 @@
       "name": "Test 9",
       "description": "Description, Description, Description, Description and Description 3",
       "script": "print('Hello World, this is a test 3')"
+    },
+    {
+      "name": "Test 9",
+      "description": "Description, Description, Description, Description and Description 3",
+      "script": "print('Hello World, this is a test 3')"
     }
   ]
 }
