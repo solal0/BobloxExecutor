@@ -1,14 +1,14 @@
 {
   "scripts": [
     {
-      "name": "Test 1",
-      "description": "Description, Description, Description, Description and Description 1",
-      "script": "print('Hello World, this is a test 1')"
+      "name": "Dex Explorer v5",
+      "description": "Roblox Studio explorer but locally in game.",
+      "script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/zzerexx/Dex/refs/heads/master/main.lua'))()"
     },
     {
-      "name": "Test 2",
-      "description": "Description, Description, Description, Description and Description 2",
-      "script": "print('Hello World, this is a test 2')"
+      "name": "Initnite Yield",
+      "description": "Best universal script out there. Best one, no cap.",
+      "script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()"
     },
     {
       "name": "Test 3",
