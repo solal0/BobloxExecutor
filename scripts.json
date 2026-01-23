@@ -11,9 +11,9 @@
       "script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()"
     },
     {
-      "name": "Test 3",
-      "description": "Description, Description, Description, Description and Description 3",
-      "script": "print('Hello World, this is a test 3')"
+      "name": "BABFT Auto Farm",
+      "description": "Simple auto farm that cna be toggled ON/OFF via a button",
+      "script": "local Players=game:GetService('Players');local p=Players.LocalPlayer;local dir=workspace.BoatStages.NormalStages;local name='CaveStage';local stages=10;local timeDelay=2;local autofarm=false;local stage=0;local running=false;local character,hrp;local gui=Instance.new('ScreenGui');gui.ResetOnSpawn=false;gui.Parent=p.PlayerGui;local button=Instance.new('TextButton');button.Parent=gui;button.Text='Auto Farm: OFF';button.BackgroundColor3=Color3.fromRGB(255,0,0);button.Position=UDim2.new(0.01,0,0.01,0);button.Size=UDim2.new(0.08,0,0.05,0);local holder=Instance.new('Part');holder.Anchored=true;holder.CanCollide=true;holder.Size=Vector3.new(10,1,10);holder.Transparency=1;holder.Parent=workspace;local function setCharacter(char) character=char;hrp=char:WaitForChild('HumanoidRootPart') end;local function startFarm() if running or not autofarm then return end;running=true;stage=0;while autofarm do if not character or not hrp or not hrp.Parent then break end;stage+=1;if stage>stages then hrp.Anchored=true;character:SetPrimaryPartCFrame(dir.TheEnd.GoldenChest.Trigger.CFrame);hrp.Anchored=false;break end;local stagePart=dir:WaitForChild(name..stage).DarknessPart;local cf=stagePart.CFrame+Vector3.new(0,-10,0);hrp.Anchored=true;holder.CFrame=cf;character:SetPrimaryPartCFrame(cf);hrp.Anchored=false;task.wait(timeDelay) end;running=false end;button.MouseButton1Click:Connect(function() autofarm=not autofarm;if autofarm then button.Text='Auto Farm: ON';button.BackgroundColor3=Color3.fromRGB(0,255,0);startFarm() else button.Text='Auto Farm: OFF';button.BackgroundColor3=Color3.fromRGB(255,0,0);if hrp then hrp.Anchored=false end end end);p.CharacterAdded:Connect(function(char) setCharacter(char);running=false;if autofarm then task.wait(0.25);startFarm() end end);if p.Character then setCharacter(p.Character) end"
     },
     {
       "name": "Test 4",
