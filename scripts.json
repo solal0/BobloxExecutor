@@ -26,9 +26,9 @@
       "script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/TheRealAsu/BABFT/refs/heads/main/Loader.lua'))()"
     },
     {
-      "name": "Test 5",
-      "description": "Description, Description, Description, Description and Description 2",
-      "script": "print('Hello World, this is a test 2')"
+      "name": "Universal Aimbot",
+      "description": "Description, Description, Description, Description and Description !",
+      "script": "loadstring(game:HttpGet('https://pastebin.com/raw/nWrM3rmt'))()"
     },
     {
       "name": "Test 6",
