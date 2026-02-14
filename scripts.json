@@ -31,9 +31,9 @@
       "script": "loadstring(game:HttpGet('https://pastebin.com/raw/nWrM3rmt'))()"
     },
     {
-      "name": "Test 6",
-      "description": "Description, Description, Description, Description and Description 3",
-      "script": "print('Hello World, this is a test 3')"
+      "name": "Anti AFK",
+      "description": "Anti AFK",
+      "script": "for i,v in pairs(getconnections(game.Players.LocalPlayer.Idled)) do v:Disable() end"
     },
     {
       "name": "Test 7",
