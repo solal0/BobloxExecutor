@@ -32,13 +32,13 @@
     },
     {
       "name": "Anti AFK",
-      "description": "Anti AFK",
+      "description": "Anti AFK who no longer works i think",
       "script": "for i,v in pairs(getconnections(game.Players.LocalPlayer.Idled)) do v:Disable() end"
     },
     {
-      "name": "Test 7",
-      "description": "Description, Description, Description, Description and Description 1",
-      "script": "print('Hello World, this is a test 1')"
+      "name": "Anti AFK 2",
+      "description": "Creates a menu with up time, fps, ping and an anti afk logic",
+      "script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn'))();"
     },
     {
       "name": "Test 8",
