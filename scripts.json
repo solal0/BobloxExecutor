@@ -18,7 +18,7 @@
     {
       "name": "BABFT Auto Farm",
       "description": "Simple optimized auto farm, cannot be stopped.",
-      "script": "local p=game.Players.LocalPlayer;local v=0;local pos=game.Workspace.BoatStages.NormalStages;local chest=game.Workspace.BoatStages.NormalStages.TheEnd.GoldenChest.Trigger;p.CharacterAdded:Connect(function(c);v=0;c:WaitForChild('HumanoidRootPart').Anchored=true;while true do;wait(3);v+=1;if v==7 then;c:SetPrimaryPartCFrame(chest.CFrame);c:WaitForChild('HumanoidRootPart').Anchored=false;wait(.5);elseif v==11 then;break;end;local n=pos:FindFirstChild('CaveStage'..tostring(v)).DarknessPart;if n then;c:SetPrimaryPartCFrame(n.CFrame-Vector3.new(0,0,100));c:WaitForChild('HumanoidRootPart').Anchored=false;wait(.1);c:WaitForChild('HumanoidRootPart').Anchored=true;end;end;end);p.Character.Humanoid.Health=0"
+      "script": "local p=game.Players.LocalPlayer;local v=0;local pos=game.Workspace.BoatStages.NormalStages;local chest=game.Workspace.BoatStages.NormalStages.TheEnd.GoldenChest.Trigger;p.CharacterAdded:Connect(function(c)v=0;c:WaitForChild('HumanoidRootPart').Anchored=true;while true do wait(3);v=v+1;if v==7 then c:SetPrimaryPartCFrame(chest.CFrame);c:WaitForChild('HumanoidRootPart').Anchored=false;wait(.5)elseif v==11 then break end;local n=pos:FindFirstChild('CaveStage'..tostring(v)) and pos:FindFirstChild('CaveStage'..tostring(v)).DarknessPart;if n then c:SetPrimaryPartCFrame(n.CFrame-Vector3.new(0,0,100));c:WaitForChild('HumanoidRootPart').Anchored=false;wait(.1);c:WaitForChild('HumanoidRootPart').Anchored=true end end end);p.Character.Humanoid.Health=0"
     },
     {
       "name": "Cool GUI for BABFT",
