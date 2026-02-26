@@ -8,13 +8,13 @@ date: 26 February 2026
 
 
 
-## Instructions:
+\## Instructions:
 
 
 
 1\. run Boblox Executor.exe  
 
-the script will try to download the API himself and if he fails, give you the option to download it yourself or get help by joining the discord.
+1.1 the script will try to download the API himself and if he fails, give you the option to download it yourself or get help by joining the discord.
 
 
 
@@ -22,7 +22,7 @@ the script will try to download the API himself and if he fails, give you the op
 
 
 
-## Notes:
+\## Notes:
 
 
 
@@ -38,7 +38,7 @@ the script will try to download the API himself and if he fails, give you the op
 
 
 
-## Links:
+\## Links:
 
 
 
@@ -48,7 +48,9 @@ WeAreDevs API - https://wearedevs.net/d/Exploit%20API
 
 Discord - https://cw-shs.netlify.app/pages/redirect.html?discord  
 
-Skira (github) - https://cw-shs.netlify.app/pages/redirect.html?github  
+Skira (github) - https://cw-shs.netlify.app/pages/redirect.html?github
+
+Repository - https://github.com/solal0/BobloxExecutor
 
 
 
@@ -56,7 +58,7 @@ Skira (github) - https://cw-shs.netlify.app/pages/redirect.html?github
 
 
 
-## Versions
+\## Versions
 
 
 
@@ -67,8 +69,4 @@ v1.1 - February 07 2026 - SHS 2.0 was added and name was changed from BobloxPlus
 v1.2 - February 10 2026 - Added per program key handle  
 
 v2 - February 26 2026 - The program has been rebuilt from scratch, still uses WeAreDevs API tho. Completely new UI, black and white themed, a clean code editor using Monaco, theme settings, icons, animations, ... This definitely is a v2.
-
-
-
-
 
