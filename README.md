@@ -8,7 +8,7 @@ date: 26 February 2026
 
 
 
-\## Instructions:
+## Instructions:
 
 
 
@@ -22,7 +22,7 @@ date: 26 February 2026
 
 
 
-\## Notes:
+## Notes:
 
 
 
@@ -38,7 +38,7 @@ date: 26 February 2026
 
 
 
-\## Links:
+## Links:
 
 
 
@@ -56,7 +56,7 @@ Skira (github) - https://cw-shs.netlify.app/pages/redirect.html?github
 
 
 
-\## Versions
+## Versions
 
 
 
@@ -67,4 +67,5 @@ v1.1 - February 07 2026 - SHS 2.0 was added and name was changed from BobloxPlus
 v1.2 - February 10 2026 - Added per program key handle  
 
 v2 - February 26 2026 - The program has been rebuilt from scratch, still uses WeAreDevs API tho. Completely new UI, black and white themed, a clean code editor using Monaco, theme settings, icons, animations, ... This definitely is a v2.
+
 
