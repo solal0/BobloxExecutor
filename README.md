@@ -8,33 +8,15 @@ date: 4 July 2026
 
 
 
-\## Instructions:
+## Instructions:
 
 
 
-1\. Run "Boblox Executor.exe", the api will be downloaded automaticaly. 
+1. Run "Boblox Executor.exe", the api will be downloaded automaticaly. 
 
-2\. Install .NET if not done already.
+2. Install .NET if not done already.
 
-3\. Use a paid activation key or follow the free access steps to verify.
-
-
-
----
-
-
-
-\## Notes:
-
-
-
-\- You can now purchase keys at https://discord.gg/5znwBsuEpf (https://skira.me?discord) by creating a ticket.  
-
-\- Most files are hidden so only the relevant ones are shown.  
-
-\- If via the program you go to Scripts>Local Scripts, you'll see a list of all the .lua files located in Boblox Executor 2/scripts, i also added a bit of code so if a script contains "-- @author: Username", "-- @name: Script Name", "-- @description: Simple description for ya !" or even "-- @date: 12 October", those informations will be added to the script's card.
-
-\- A list of the products will soon be available at https://skira.me/shs/products/, for now it's a placeholder.
+3. Use a paid activation key or follow the free access steps to verify.
 
 
 
@@ -42,7 +24,25 @@ date: 4 July 2026
 
 
 
-\## Links:
+## Notes:
+
+
+
+- You can now purchase keys at https://discord.gg/5znwBsuEpf (https://skira.me?discord) by creating a ticket.  
+
+- Most files are hidden so only the relevant ones are shown.  
+
+- If via the program you go to Scripts>Local Scripts, you'll see a list of all the .lua files located in Boblox Executor 2/scripts, i also added a bit of code so if a script contains "-- @author: Username", "-- @name: Script Name", "-- @description: Simple description for ya !" or even "-- @date: 12 October", those informations will be added to the script's card.
+
+- A list of the products will soon be available at https://skira.me/shs/products/, for now it's a placeholder.
+
+
+
+---
+
+
+
+## Links:
 
 
 
@@ -62,7 +62,7 @@ Repository - https://github.com/solal0/BobloxExecutor
 
 
 
-\## Versions
+## Versions
 
 
 
